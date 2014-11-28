@@ -24,7 +24,7 @@ then
 	sudo mkdir /var/www/ghost
 	cd /var/www/ghost
 	sudo apt-get install unzip
-	wget https://en.ghost.org/archives/zip/ghost-$VERSION.zip
+	wget https://ghost.org/zip/ghost-$VERSION.zip
 	unzip ghost-$VERSION.zip
 
 	# Create your running config and bind server socket to all IPs.
