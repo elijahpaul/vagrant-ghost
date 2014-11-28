@@ -5,7 +5,7 @@
 
 # Change this to the version of Ghost you want to install.
 # Untested with versions outside of 0.3.2.
-VERSION=0.4.1
+VERSION=0.5.5
 
 # Only run the following if this is the first time running.
 if [ ! -f /var/log/firsttime ]
@@ -24,7 +24,7 @@ then
 	sudo mkdir /var/www/ghost
 	cd /var/www/ghost
 	sudo apt-get install unzip
-	wget https://en.ghost.org/zip/ghost-$VERSION.zip
+	wget https://en.ghost.org/archives/zip/ghost-$VERSION.zip
 	unzip ghost-$VERSION.zip
 
 	# Create your running config and bind server socket to all IPs.
